@@ -1,4 +1,6 @@
-﻿namespace QingYi.Core.Folder
+﻿using SIO = System.IO;
+
+namespace QingYi.Core.Folder
 {
     public class Hide
     {
@@ -16,7 +18,7 @@
             try
             {
                 // 设置文件夹属性为隐藏
-                File.SetAttributes(folderPath, File.GetAttributes(folderPath) | FileAttributes.Hidden);
+                SIO.File.SetAttributes(folderPath, SIO.File.GetAttributes(folderPath) | FileAttributes.Hidden);
             }
             catch (Exception ex)
             {
