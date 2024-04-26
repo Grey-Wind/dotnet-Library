@@ -19,10 +19,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Web\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
