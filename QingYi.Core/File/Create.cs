@@ -11,7 +11,7 @@
         ///     你想要创建的文件（完整路径）
         /// </param>
         /// <exception cref="Exception"></exception>
-        public static void CreateFolder(string filePath)
+        public static void CreateFile(string filePath)
         {
             try
             {
